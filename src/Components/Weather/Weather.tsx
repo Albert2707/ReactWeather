@@ -21,7 +21,7 @@ const Weather = () => {
   );
 
   return (
-    <div className="flex flex-1 mt-10 md:mt-0 md:justify-center items-center flex-col md:flex-row gap-5  md:gap-9  lg:gap-12">
+    <div className="flex mt-auto  justify-center  items-center flex-col md:flex-row gap-5  md:gap-9  lg:gap-12">
       <div className="boxes  bg-[#F3E9DC] gap-5">
         <h1>{Math.round(data?.main.temp)}˚C</h1>
 
