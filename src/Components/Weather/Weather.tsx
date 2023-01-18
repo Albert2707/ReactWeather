@@ -21,7 +21,7 @@ const Weather = () => {
   );
 
   return (
-    <div className="flex flex-col md:flex-row gap-5  md:gap-9  lg:gap-12">
+    <div className="flex flex-1 justify-center items-center flex-col md:flex-row gap-5  md:gap-9  lg:gap-12">
       {data && (
         <>
           <div className="boxes  bg-[#F3E9DC] gap-5">
