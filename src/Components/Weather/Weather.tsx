@@ -11,7 +11,7 @@ const Weather = () => {
     () => {
       return axios
         .get(
-          `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&lang=es&units=metric&appid=68e058a125057ab9646f38c8e5f07a09`
+          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&lang=es&units=metric&appid=68e058a125057ab9646f38c8e5f07a09`
         )
         .then((results) => results.data)
         .catch((error) => {
