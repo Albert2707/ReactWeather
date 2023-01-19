@@ -5,9 +5,13 @@ function App() {
   const queryClient = new QueryClient();
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="min-h-screen flex  justify-center items-start pt-10 md:pt-0  md:items-center bg-gradient-to-r from-sky-300 to-slate-200">
-        <Weather />
-        <Footer/>
+      <div className="min-h-screen flex flex-col  justify-between items-center pt-10 md:pt-0  md:items-center bg-gradient-to-r from-sky-300 to-slate-200">
+        <div className="m-auto">
+          <Weather />
+        </div>
+        <div className="flex w-full items-end">
+          <Footer />
+        </div>
       </div>
     </QueryClientProvider>
   );
