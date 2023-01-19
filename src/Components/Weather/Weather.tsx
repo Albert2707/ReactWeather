@@ -24,7 +24,7 @@ const Weather = () => {
   return (
     <div className="flex justify-center items-center">
       {isLoading ? <Loader/> : (
-      <div className="flex  mb-[17px]  justify-center  items-center flex-col md:flex-row gap-5  md:gap-9  lg:gap-12">
+      <div className="flex   justify-center  items-center flex-col md:flex-row gap-5  md:gap-9  lg:gap-12">
         <div className="boxes  bg-[#F3E9DC] gap-5">
           <h1>{Math.round(data?.main.temp)}˚C</h1>
 
